@@ -2,11 +2,11 @@
 # Tekdi task 
 
 
-# Things I've used :
+## Things I've used :
 * Bootstrap carousel
 * Swiper.js
 
-# Things I didn't found:
+## Things I didn't found:
 * The found family of Navbar and enitre webpage on GoogleFonts (I tried but it didn't matched)
 
 ## Scope for improvement
