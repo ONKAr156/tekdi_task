@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    height: 36rem;
+    background-image: url("/imges/bg-home.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    object-fit: contain;
+}
+
+.main .tilte {
+    position: absolute;
+    bottom: 14rem;
+    left: 12rem;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+    /* background-color: red; */
+}
+
+.navContent {
+    height: 4rem;
+    width: 100vw;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+
+
+.navContent .navImg {
+    height: 5rem;
+    width: 5rem;
+
+}
+
+.NavLinks {
+    height: 2rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.NavLinks :hover {
+    background-color: #382fe2;
+    color: #fff;
+}
+
+.HamberBurgerMenu {
+    display: none;
+}
+
+.content_1 {
+    background-color: #F1F1F1;
+}
+
+.content_2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.content_3 {
+    /* height: 60rem; */
+    background-image: url("/imges/industries-bg-2e408c46d42becde62c69536d7204572.png");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.content_3 .row .col-md-3 {
+    height: 25rem;
+    width: 20 rem;
+    transition: 110ms;
+}
+
+.content_3 .row .col-md-3:hover {
+    border: 2px solid gray;
+    height: 26rem;
+
+    box-shadow: -28px -27px 5px -12px rgba(0, 0, 0, 0.1);
+}
+
+.content_5 {
+    background-image: url("imges/lets-transform-bg-06ab8de9a71d94a50d42eb9a2187f4b4.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.sideImg{
+    background-image: url("imges/join-us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    /* background:url("imges/join-us.jpg") center cover no-repeat cover ; */
+
+}
+
+.img_icons img {
+    filter: grayscale(100%);
+    /* background-color: #010836; */
+    height: 5rem;
+    width: 10rem;
+}
+
+.img_icons img:hover {
+    filter: grayscale(0%);
+}
+
+.swiper {
+    background-color: #010836;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    /* background: #fff; */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #09225A;
+    border-right: solid #fff;
+    height: 25rem;
+}
+
+.swiper-slide-main {
+    text-align: center;
+    font-size: 16px;
+    background: #F1F1F1;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper_btn {
+    position: absolute;
+    top: 6%;
+    right: 5%;
+
+}
+
+.swiper-item {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+.join_us {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    background-color: #010836;
+    color: #fff;
+}
+.joinus{
+    background-color: #010836;
+    color: #F1F1F1;
+}
+.aboutus{
+    background-color: #17B1CF;
+    color: #F1F1F1;
+}
+.purpose{
+    background-color: #1271BB;
+    color: #F1F1F1;
+}
+
+
+.footer {
+    background-color: #09225A;
+}
+
+/*  responsive design's ---------------------------------------------------------------- */
+
+
+@media (max-width: 992px) {
+    .main {
+        height: 25rem;
+
+        width: 100%;
+        position: relative;
+
+
+    }
+
+    .main .tilte {
+        bottom: 8rem;
+        left: 10rem;
+        font-size: 1.5rem;
+        ;
+
+    }
+
+    .NavLinks,
+    .NavDrop {
+        display: none;
+    }
+
+    .navImg {
+        height: 100%;
+        width: 100%;
+    }
+
+    .HamberBurgerMenu {
+        display: block;
+    }
+
+    .collapse-data {
+        display: block;
+
+    }
+}
+
+@media (max-width:574px) {
+    .main {
+        width: 100vw;
+        height: 16rem;
+        filter: brightness(80%);
+    }
+
+    .navContent {
+        height: 1rem;
+        width: 100vw;
+    }
+
+   
+    .main .tilte {
+        bottom: 4.5rem;
+        left: 3.5rem;
+        font-size: 0.9rem;
+        font-weight:400 ;
+
+    }
+
+}
+
+/* @media (max-width:480px) and (min-width:200px) {
+    .main {
+        width: 100%;
+        height: 14rem;
+    }
+
+    .navContent {
+        height: 1rem;
+        width: 100vw;
+    }
+
+} */
